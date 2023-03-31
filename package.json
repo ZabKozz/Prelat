@@ -1,0 +1,30 @@
+{
+  "name": "prelat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZabKozz/Prelat.git"
+  },
+  "author": "ZabKoz#2744",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ZabKozz/Prelat/issues"
+  },
+  "homepage": "https://github.com/ZabKozz/Prelat#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.22"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src/"
+  }
+}
